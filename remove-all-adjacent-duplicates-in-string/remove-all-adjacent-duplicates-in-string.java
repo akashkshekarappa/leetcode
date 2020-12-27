@@ -1,16 +1,17 @@
+//TC: O(n)
+//S: O(n-d), where D is a total length for all duplicates.
+//We can use StringBuilder as a stack to avoid reversing
 class Solution {
     public String removeDuplicates(String S) {
-        Stack<Character> stack = new Stack<>();
+        StringBuilder stack = new StringBuilder(S.length());
         for(char c : S.toCharArray()){
-            if(!stack.isEmpty() && stack.peek() == c)
-                stack.pop();
+            int size = stack.length();
+            if(size > 0 && c == stack.charAt(size-1))
+                stack.deleteCharAt(size-1);
             else
-                stack.push(c);
+                stack.append(c);
         }
-        StringBuilder sb = new StringBuilder();
-        for(char s : stack) 
-            sb.append(s);
-        return sb.toString();
+        return stack.toString();
     }
 }
 ​
