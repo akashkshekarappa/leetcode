@@ -1,3 +1,6 @@
+//DFS Approach, recursive
+//TC: O(m * n)
+//SC: O(m * n)
 class Solution {
     public int maxAreaOfIsland(int[][] grid) {
         //edge case
