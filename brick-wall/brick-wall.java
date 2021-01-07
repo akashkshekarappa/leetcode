@@ -17,7 +17,6 @@ class Solution {
         for(int key: freqmap.keySet()){
             result = Math.min(result, wall.size() - freqmap.get(key));
         }
-        
         return result;
     }
 }
