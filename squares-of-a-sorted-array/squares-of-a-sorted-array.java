@@ -19,7 +19,7 @@ class Solution {
             else {
                 result[index] = nums[right] * nums[right];
                 right --;
-            }
+            }
             index--;
         }
         return result;
