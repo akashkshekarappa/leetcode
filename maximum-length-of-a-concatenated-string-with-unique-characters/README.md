@@ -1,3 +1,4 @@
+[Discussion Post (created on 24/0/2021 at 12:7)](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/submissions/)  
 <h2>1239. Maximum Length of a Concatenated String with Unique Characters</h2><h3>Medium</h3><hr><div><p>Given an array of strings <code>arr</code>. String <code>s</code> is a concatenation of a sub-sequence of <code>arr</code> which have <strong>unique characters</strong>.</p>
 
 <p>Return <em>the maximum possible length</em> of <code>s</code>.</p>
