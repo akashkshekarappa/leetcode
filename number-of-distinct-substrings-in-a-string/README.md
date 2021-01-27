@@ -1,3 +1,4 @@
+[Discussion Post (created on 26/0/2021 at 19:28)](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/discuss/?currentPage=1&orderBy=most_votes&query=)  
 <h2>1698. Number of Distinct Substrings in a String</h2><h3>Medium</h3><hr><div><p>Given a string <code>s</code>, return <em>the number of <strong>distinct</strong> substrings of</em>&nbsp;<code>s</code>.</p>
 
 <p>A <strong>substring</strong> of a string is obtained by deleting any number of characters (possibly zero) from the front of the string and any number (possibly zero) from the back of the string.</p>
