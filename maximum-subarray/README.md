@@ -1,3 +1,4 @@
+[Discussion Post (created on 9/1/2021 at 17:45)](https://leetcode.com/problems/maximum-subarray/submissions/)  
 <h2>53. Maximum Subarray</h2><h3>Easy</h3><hr><div><p>Given an integer array <code>nums</code>, find the contiguous subarray&nbsp;(containing at least one number) which has the largest sum and return <em>its sum</em>.</p>
 
 <p><strong>Follow up:</strong>&nbsp;If you have figured out the <code>O(n)</code> solution, try coding another solution using the <strong>divide and conquer</strong> approach, which is more subtle.</p>
