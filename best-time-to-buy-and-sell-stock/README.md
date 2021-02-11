@@ -1,3 +1,4 @@
+[Discussion Post (created on 11/1/2021 at 9:15)](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/)  
 <h2>121. Best Time to Buy and Sell Stock</h2><h3>Easy</h3><hr><div><p>Say you have an array for which the <em>i</em><sup>th</sup> element is the price of a given stock on day <em>i</em>.</p>
 
 <p>If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.</p>
