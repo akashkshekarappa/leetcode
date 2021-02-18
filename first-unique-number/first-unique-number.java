@@ -4,7 +4,7 @@ class FirstUnique {
     Map<Integer, Boolean> map = new HashMap<>();
     public FirstUnique(int[] nums) {    //O(k)
         for(int num: nums){
-            this.add(num);
+            add(num);
         }
         
     }
