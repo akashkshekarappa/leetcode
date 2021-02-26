@@ -1,4 +1,4 @@
-<h2>240. Search a 2D Matrix II</h2><h3>Medium</h3><hr><div><p>Write an efficient algorithm that searches for a <code>target</code> value in an <code>m x n</code>&nbsp;integer <code>matrix</code>. The <code>matrix</code> has the following properties:</p>
+<h2>240. Search a 2D Matrix II</h2><h3>Medium</h3><hr><div><p>Write an efficient algorithm that searches for a <code>target</code> value in an <code>m x n</code> integer <code>matrix</code>. The <code>matrix</code> has the following properties:</p>
 
 <ul>
 	<li>Integers in each row are sorted in ascending from left to right.</li>
