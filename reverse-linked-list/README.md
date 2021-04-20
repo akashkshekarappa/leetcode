@@ -1,3 +1,4 @@
+[Discussion Post (created on 20/3/2021 at 8:15)](https://leetcode.com/problems/reverse-linked-list/solution/)  
 <h2>unknown-problem</h2><h3>Easy</h3><hr><div><p>Reverse a singly linked list.</p>
 
 <p><strong>Example:</strong></p>
