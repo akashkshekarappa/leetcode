@@ -36,7 +36,8 @@ class Solution {
             for(int i=0; i<size; i++){
                 Node curr = q.poll();   //get the topmost node from queue
                 if(i != size-1){    //if its not last node
-                    curr.next = q.peek();;
+                    Node next = q.peek();   //get the next node
+                    curr.next = next;
                 }
                 
                 //adding the left and right child of the node to queue
