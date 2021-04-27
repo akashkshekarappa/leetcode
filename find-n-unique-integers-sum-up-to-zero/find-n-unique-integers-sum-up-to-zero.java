@@ -1,4 +1,6 @@
-//start filling up from left and right complementary values (so if we insert 1 from left, insert -1 from right, then insert 2 from left and insert -2 from right and so on) :
+//start filling up from left and right complementary values (so if we insert 1 from left, insert -1 from right, then insert 2 from left and insert -2 from right and so on)
+//TC: O(n)
+//SC: O(n) // if we are not considering resultant array, then O(1)
 class Solution {
     public int[] sumZero(int n) {
         int[] result = new int[n];
