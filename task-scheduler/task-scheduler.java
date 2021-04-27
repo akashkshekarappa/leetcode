@@ -1,3 +1,5 @@
+//TC: O(n)
+//SC: O(1)
 class Solution {
     public int leastInterval(char[] tasks, int n) {
         //edge case
