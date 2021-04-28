@@ -3,7 +3,8 @@
 //SC: O(1)
 class Solution {
     public void rotate(int[][] matrix) {
-        //Step: Transpose , turns rows to column
+       // Input: matrix = [[1,2,3],[4,5,6],[7,8,9]]
+        //Step: Transpose , turns rows to column (matrix: [[1,4,7],[2,5,8],[3,6,9]])
         for(int i=0; i<matrix.length; i++){
             for(int j=i; j<matrix.length; j++){
                 int temp = matrix[i][j];
