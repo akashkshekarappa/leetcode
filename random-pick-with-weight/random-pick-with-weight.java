@@ -1,3 +1,5 @@
+//TC: O(n)
+//SC: O(n)
 class Solution {
     int[] prefixSums;
     int totalSum;
