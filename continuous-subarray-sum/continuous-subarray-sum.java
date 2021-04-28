@@ -27,6 +27,7 @@ class Solution {
              sum+= nums[i];
              if(k!=0)
                  sum = sum%k;
+             
              if(map.containsKey(sum)){
                  if(i - map.get(sum) > 1)
                      return true;
