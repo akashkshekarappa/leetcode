@@ -8,6 +8,9 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+//Iterative
+//TC: O(n)
+//SC: O(1)
 class Solution {
     public ListNode reverseList(ListNode head) {
         if(head == null || head.next == null)	// base condition, if 0 node or 1 node 
