@@ -14,6 +14,8 @@
  * Calculate the difference d = | LA-LB|
  * Move d nodes in longer Linked list
  * Then move by one step in both Linked List till headA = headB*/
+//TC: O(n)
+//SC: O(1)
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         int lengthA = 0;
