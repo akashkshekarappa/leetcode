@@ -1,3 +1,5 @@
+//Time Complexity: O(1). The lookup and update of the hashtable takes a constant time.
+//Space Complexity: O(M) where M is the size of all incoming messages.
 class Logger {
 
     HashMap<String, Integer> map;
