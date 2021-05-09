@@ -1,3 +1,4 @@
+//BFS Approach
 class Solution {
     int[][] dirs = new int[][] {{2, 1}, {1, 2}, {-1, 2}, {-2, 1}, {-2, -1}, {-1, -2}, {1, -2}, {2, -1}};
     
