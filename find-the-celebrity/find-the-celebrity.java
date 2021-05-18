@@ -17,7 +17,7 @@ public class Solution extends Relation {
         for(int j=0; j<numofPeople; j++){
             if(i == j)
                 continue;
-            if(knows(i, j) || !knows(j, i))
+            if(knows(i, j) || !knows(j, i)) // if 1->1 is not there in given example[[[1,1,0],[0,1,0],[1,1,1]]], then return -1
                 return false;
         }
         return true;
