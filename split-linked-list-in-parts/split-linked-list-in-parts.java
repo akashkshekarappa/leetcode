@@ -11,14 +11,14 @@
 class Solution {
     public ListNode[] splitListToParts(ListNode head, int k) {
         ListNode curr = head;
-        int N = 0;
+        int noOfNodes = 0;
         while(curr != null){    //count number of nodes in list
             curr = curr.next;
-            N++;
+            noOfNodes++;
         }
         
-        int width = N/k;
-        int rem = N % k;
+        int width = noOfNodes/k;
+        int rem = noOfNodes % k;    //Calculate remainder(r) to know if list can not be divided in equal parts
         
         ListNode[] result = new ListNode[k];
         curr = head;
