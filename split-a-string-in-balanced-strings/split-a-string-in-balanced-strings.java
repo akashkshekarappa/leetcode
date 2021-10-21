@@ -1,3 +1,5 @@
+//Time Complexity: O(n)
+//Space Complexity: O(1)
 class Solution {
     public int balancedStringSplit(String s) {
         int count = 0;
@@ -7,7 +9,7 @@ class Solution {
             char c = s.charAt(i);
             if(c == 'L')
                 left++;
-            if(c == 'R')
+            else
                 right++;
             
             if(left == right)
