@@ -18,7 +18,7 @@ class Solution {
             else return false;
             
             if(left == right)
-                return left != 0 && right != arr.length - 1;
+                return left != 0 && left != arr.length - 1;            //return left != 0 && right != arr.length - 1;
         }
         return false;
     }
