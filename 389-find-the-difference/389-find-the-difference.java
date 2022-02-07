@@ -1,7 +1,26 @@
+//Optimized
+//TC: O(n)
+//SC: O(1)
+class Solution {
+    public char findTheDifference(String s, String t) {
+        if(s == null || s.length() == 0)
+            return t.charAt(0);
+        
+        int charCode = t.charAt(s.length());
+        
+        for(int i=0; i<s.length(); i++){
+            charCode -= (int)s.charAt(i);
+            charCode += (int)t.charAt(i);
+        }
+        return (char)charCode;
+    }
+}
+
+
 //Using Hashmap
 //Tc: O(n)
 //SC: O(n)
-class Solution {
+/*class Solution {
     public char findTheDifference(String s, String t) {
         if(s == null || s.length() == 0)
             return t.charAt(0);
@@ -25,4 +44,4 @@ class Solution {
         }
         return 'a';
     }
-}
+} */
