@@ -1,21 +1,33 @@
+//Backtracking
+//TC: O(n * 2 ^n)
+//SC: O(n * 2 ^n)
 class Solution {
-    List<List<Integer>> result = new ArrayList<>();
+    List<List<Integer>> result;
     public List<List<Integer>> subsets(int[] nums) {
-        if(nums == null || nums.length == 0)
-            return result;
-        
-        backtrack(nums, new ArrayList<>(), 0);
-        return result;
+        result = new ArrayList<>();
+		//base case
+		if(nums == null || nums.length == 0)
+			return result;
+
+		/** Arrays.sort(nums);	https://leetcode.com/problems/subsets-ii/*/
+		backtrack(nums, new ArrayList<>(), 0);
+		return result;
     }
-    
     private void backtrack(int[] nums, List<Integer> temp, int index){
-        
-        result.add(new ArrayList<>(temp));
-        
-        for(int i=index; i<nums.length; i++){
-            temp.add(nums[i]);
-            backtrack(nums, temp, i+1);
-            temp.remove(temp.size()-1);
-        }
-    }
+		//base case
+
+
+		//logic
+		result.add(new ArrayList<>(temp));
+		for(int i = index; i < nums.length; i++){
+			/** if(i > index && nums[i] == nums[i-1])
+                continue; https://leetcode.com/problems/subsets-ii/**/
+			//action
+			temp.add(nums[i]);
+			//recurse
+			backtrack(nums, temp, i+1);
+			//backtrack
+			temp.remove(temp.size()-1);
+		}
+	}
 }
