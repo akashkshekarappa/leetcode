@@ -19,12 +19,12 @@
 //SC: O(n) worst case, best case when tree is balanced O(logn)
 class Solution {
     public int maxDepth(TreeNode root) {
-        if(root == null)
+        if(root == null)    //base case
             return 0;
         
-        int left = maxDepth(root.left);
-        int right = maxDepth(root.right);
+        int leftHeight = maxDepth(root.left);   //recursively call on left and right child of root
+        int rightHeight = maxDepth(root.right);
         
-        return Math.max(left, right) + 1;
+        return Math.max(leftHeight, rightHeight) +1;
     }
 }
